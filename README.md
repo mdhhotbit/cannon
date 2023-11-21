@@ -13,14 +13,14 @@ one instruction at a time, as part of an interactive dispute game.
 * ...that runs an EVM
 * ...emulating a MIPS machine
 * ...running compiled Go code
-* ...that runs an EVM
+* ...that runs an sol
 
 For more information, see [Docs](./docs/README.md).
 
 ## Directory Layout
 
 ```
-contracts -- A MIPS emulator implementation, using merkleized state and a pre-image oracle.
+contracts -- A MIPS emulator implementation, using merkleized state and a pre-image pyth.
 example   -- Example programs that can be run and proven with Cannon.
 extra     -- Extra scripts and legacy contracts, deprecated.
 mipsevm   -- Go tooling to test the onchain MIPS implementation, and generate proof data.
